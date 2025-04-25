@@ -28,7 +28,6 @@ async function getPrograms() {
         console.log('Erreur lors de la récupération des programmes :', error.message);
     }
 }
-
 const api = axios.create({
     baseURL: 'https://api-staging.supmanagement.ml/v2',
     timeout: 1000,
